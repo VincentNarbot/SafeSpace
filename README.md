@@ -4,7 +4,7 @@ Safe Space is the 5th episode of the 19th season of South Park; where Butters is
 
 Help Butter by using #SafeSpace and programmaticly filtering your Twitter timeline with temperature gradient.
 
-![alt tag](https://raw.githubusercontent.com/VincentNarbot/SafeSpace/img/Mac.png)
+![alt tag](https://raw.githubusercontent.com/VincentNarbot/SafeSpace/master/img/Mac.png)
 
-`Demo: http://vincent.narbot.com/project/SafeSpace`
+[Demo](http://vincent.narbot.com/project/SafeSpace)
 

@@ -1,0 +1,98 @@
+/*
+SafeSpace - Style.css
+*/
+
+body{
+	background: #F0F2F1;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.label{
+	margin-right: 7px;
+}
+
+header{
+	width: 100%;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+header h1{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 30px; 
+}
+
+.butter{
+	width: 150px;
+	margin-top: 50px;
+}
+
+.safebox{
+	border: 1px solid #333;
+	border-radius: 5px;
+	padding: 7px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+
+.safebox textarea{
+	width: 100%;
+}
+
+.safebox #username-tweet{
+	font-weight: 800;
+}
+
+#score{
+	font-size: 12px;
+}
+
+#info{
+	font-size: 12px;
+	margin-left: 2px;
+	margin-right:5px;
+}
+
+#twitter-oauth{
+	margin-top: 20px; 
+	padding: 7px;
+	text-align: center;
+	background-color: #55acee;
+	color: #fff;
+	border-radius: 5px;
+}
+
+footer{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+/*Temperature Gradient*/
+.green{
+	background-color: rgba(23,255,0,0.9);
+}
+
+.orange{
+	background-color: rgba(255,170,0,0.9);
+}
+
+.red{
+	background-color: rgba(255,0,0,0.9);
+}
+

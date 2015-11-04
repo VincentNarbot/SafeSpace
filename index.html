@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>#SafeSpace - South Park</title>
+
+	<!-- CSS -->
+	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
+	<link href="bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet">
+	<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" >
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+       		<h1>#SafeSpace</h1>
+       		<div class="row">
+       			<div class="col-xs-6">
+       				<img src="img/ButtersStotch.png" class="butter">
+       			</div>
+       			<div class="col-xs-6 left">
+       				<p><strong>Safe Space</strong> is the 5th episode of the 19th season of <strong>South Park</strong>; where Butters is filtering negative comments from Social Network, for an increasingly large number of people, including Demi Lovato, Steven Seagal, Vin Diesel and Cartman, which requires him to stay up late at night, and suffer from sleep deprivation.</p>
+       				<p>Help Butter by using <strong>#SafeSpace</strong> and programmaticly filtering your <strong><i class="fa fa-twitter"></i> Twitter timeline</strong> with temperature gradient.</p>
+       				<span class="label label-default red">0% Safe</span>
+       				<span class="label label-default orange">50% Safe</span>
+       				<span class="label label-default green">100% Safe</span>
+       			</div>
+       		</div>
+       	</div>
+    </header>
+
+	<div class="container">
+		<div id="safebox0" class="safebox">
+			<textarea>@Butters really appreciate #SafeSpace. Thank you for your love !</textarea>
+			<br>
+			<span id="info"><i class="fa fa-pencil-square-o"></i></span>
+			<span id="score"></span>
+
+		</div>
+
+		<div id="twitter-oauth" onclick="twitterOauth()">
+			Connect to #SafeSpace using <i class="fa fa-twitter"></i> Twitter
+		</div>
+
+		<div id="twitter-timeline">
+
+		</div>
+	</div>
+
+	<footer>
+		South Park and all related titles, logos and characters are trademarks of Comedy Partners. #SafeSpace is not affiliated with, endorsed, sponsored, or specifically approved by South Park or Comedy Partners.
+	</footer>
+
+	<!-- Javascript  -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/sweetalert/dist/sweetalert-dev.js"></script>
+	<script src="bower_components/oauth-js/dist/oauth.js"></script>
+	<script src="js/safespace.js"></script>
+</body>
+</html>
